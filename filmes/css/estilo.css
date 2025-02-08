@@ -1,1 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
 
+header {
+    background-color: #f4c2c2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.introducao {
+    text-align: center;
+    padding: 20px;
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filme {
+    width: 300px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.filme img {
+    width: 100%;
+    height: auto;
+}
+
+
+button {
+    background-color: #f4c2c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
