@@ -6,8 +6,7 @@ body {
 }
 
 header {
-    background-color: #f4c2c2;
-    color: white;
+    background-color: white;
     text-align: center;
     padding: 15px;
 }
@@ -55,7 +54,7 @@ nav a {
 
 
 button {
-    background-color: #f4c2c2;
+    background-color: black;
     color: white;
     border: none;
     padding: 10px 20px;
