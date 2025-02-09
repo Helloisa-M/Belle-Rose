@@ -27,11 +27,13 @@ body {
 .navbar ul li {
     display: inline;
     margin: 0 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .navbar ul li a{
     text-decoration: none;
-    color: #444;
+    color: #0e0d0d;
     font-size: 20px;
     font-weight: bold;
     transition: color 0.3 ease;
@@ -55,21 +57,47 @@ a{
 
 .introducao {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    background-color: #fff5f5;
+    margin-bottom: 50px;
+   
+}
+.introducao h2{
+    font-size: 50px;
+    margin-top: 100px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1000px;
+    text-align: center;
+}
+.introducao img{
+    width: 400px;
+    height: 300px;
+}
+.introducao p{
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    align-items: baseline;
+    margin-top: 60px;
+    position: relative;
+    left: 160px;
 }
 .texto{
-    background-color: #b9b9b9;
+    background-color: #c5c1c1c4;
     margin-left: 200px;
     margin-right: 200px;
     font-size: 20px;
     align-content: center;
     text-align: justify;
-    box-shadow: 5px 5px 5px rgb(51, 50, 50) ;
+    box-shadow: 5px 5px 5px rgba(66, 65, 65, 0.795) ;
 }
 .texto p {
 margin-left: 50px;
 margin-right: 50px;
 }
+
 
 .filmes {
     display: flex;
@@ -104,11 +132,16 @@ margin-right: 50px;
     align-content: center;
     text-align: justify;
     margin: 10px;
+    margin-left: 40px;
 }
 .filme img {
     width: 300px;
     height: auto;
     margin-right: 10PX;
+}
+.filmes button{
+    height: 50px;
+    font-size: 15px;
 }
 
 
@@ -167,5 +200,5 @@ button:hover {
 
 .interacao{
     font-size: 15px;
-    text-align: justify;
+    text-align: justify;
 }
