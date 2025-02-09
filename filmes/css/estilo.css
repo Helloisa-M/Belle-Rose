@@ -7,7 +7,7 @@ body {
 
 header {
     color: black;
-    background-color: #fdfdfd;
+    background-color: white;
     text-align: center;
     padding: 15px;
 }
@@ -22,7 +22,7 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav a {
+a{
     color: black;
     text-decoration: none;
 }
@@ -34,23 +34,42 @@ nav a {
 
 .filmes {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
     padding: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.filmes h3{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 250PX;
 }
 
 .filme {
-    width: 300px;
+    width: 1200px;
     background: white;
-    padding: 15px;
+    padding: 30px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
+    display: flex;
+    text-align: center;
 
+}
+.filme p {
+    font-size: 23px;
+    align-content: center;
+    text-align: justify;
+    margin: 10px;
+}
 .filme img {
-    width: 100%;
+    width: 300px;
     height: auto;
+    margin-right: 10PX;
 }
 
 
@@ -60,5 +79,55 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px
+    
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF5F5;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+}
+#img_rodape{
+    width: 100%;
+    
+}
+
+
+.rodape {
+    padding: 0 20px;
+    margin: auto;
+   
+}
+
+.linha-vertical {
+    width: 2px;
+    height: 100px; 
+    background-color: #000; 
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.rodape button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3d4042;
+}
+
+.interacao{
+    font-size: 15px;
+    text-align: justify;
+    
 }
