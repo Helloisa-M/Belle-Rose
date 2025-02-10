@@ -37,6 +37,9 @@ body {
     font-weight: bold;
     transition: color 0.3 ease;
 }
+.navbar ul li a:hover{
+    color: #f2b3cd;
+}
 
 .section{
     background-color: #fff5f5;
@@ -47,6 +50,34 @@ a{
     color: black;
     text-decoration: none;
 }
+.introducao {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF5F5;
+}
+.introducao h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.frase{
+    background-color: #fff5f5;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(66, 65, 65, 0.795) ;
+    
+}
+.frase p {
+margin-left: 50px;
+margin-right: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
 
 .categorias {
     display: flex;
@@ -58,27 +89,61 @@ a{
     align-items: center;
     margin-bottom: 100px;
 }
+.categorias h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 300PX;
+}
+.categoria img{
+    float: right;
+    width: 408px;
+    height: 507px;
+    
+}
+.categoria h4{
+    font-size: 20px;
+    text-align: start;
+}
+.categoria p{
+    text-align: justify;
+    font-size: 20px;
+    width: 550px;
+    
+    
+}
 .categoria {
+    display: flex;
     width: 1200px;
+    height: 507px;
     background: white;
-    padding: 30px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
     text-align: center;
-    display: flex;
     text-align: center;
-
+    align-items: flex-start;
+    gap: 205px;
+    
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 60px;
+    margin-top: 70px;
 }
 
 
-
-button {
+.categoria button {
     background-color: black;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    
+    text-align: center;
+    font-size: 15px;
 }
+
 
 
 
@@ -128,11 +193,5 @@ button:hover {
 
 .interacao{
     font-size: 15px;
-    text-align: justify;
+    text-align: justify;
 }
-
-.navbar ul li a:hover{
-    color: #f2b3cd;
-}
-
-
