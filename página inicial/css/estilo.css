@@ -106,7 +106,46 @@ a{
     margin-bottom: 30px;
 }
 
-    
+.frase{
+    background-color: #FFF5F5;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    gap: 100px;
+    color: #1b1a1a;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+#muda{
+    margin-right: 400px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#muda p{
+    margin: 0px;
+}
+
+.conhecimento{
+    background-color: #FFF5F5;
+    margin-top: 25px;
+    padding: 25px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #575656;
+    border: 1px solid black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+span{
+    color: #B827B6;
+}    
     
     
     
