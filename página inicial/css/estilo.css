@@ -33,7 +33,7 @@ body {
 
 .navbar ul li a{
     text-decoration: none;
-    color: #0e0d0d;
+    color: #000000;
     font-size: 20px;
     font-weight: bold;
     transition: color 0.3 ease;
@@ -132,9 +132,10 @@ a{
 }
 
 .conhecimento{
+    display: flex;
+    justify-content: space-between;
     background-color: #FFF5F5;
     margin-top: 25px;
-    padding: 25px;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #575656;
@@ -143,10 +144,14 @@ a{
 
 }
 
+.conhecimento p{
+    margin-right: 80px;
+    margin-top: 120px;
+}
+
 span{
     color: #B827B6;
-}    
-    
+}
     
     
 
